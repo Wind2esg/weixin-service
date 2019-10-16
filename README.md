@@ -8,6 +8,8 @@ Ez and fast use example, just fill in `// TODO block`.
 
 ## languages
 + php 
++ node
++ java
 
 ## tips
 [Wechat official API doc](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK)
