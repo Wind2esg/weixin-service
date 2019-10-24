@@ -121,7 +121,7 @@ class JsSdkHelper {
 // TODO block
 
 // stringquery and json
-$reqData = isset($_POST)? $_POST : json_decode(file_get_contents("php://input"),true);
+$reqData = isset($_POST["token"])? $_POST : json_decode(file_get_contents("php://input"),true);
 
 function serviceAccessCheck(){
   // depend on the param sent by request
